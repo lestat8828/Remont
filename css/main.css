@@ -136,6 +136,11 @@ hr {
 	font-size: 40px;
 }
 
+#dg p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .tilt { 
 	-webkit-transition: all 0.5s ease;
 	   -moz-transition: all 0.5s ease;
