@@ -28,7 +28,7 @@ p{
 	text-align: center;
 }
 
-a {
+.Home {
 	color: #f85c37
 }
 
@@ -36,6 +36,22 @@ a:hover, a:focus {
 	color: #7b7b7b;
 	text-decoration: none;
 	outline: 0;
+}
+
+.phone {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	margin: 12px 0px;
+}
+
+pre a {
+	color: #555;
+}
+
+pre a:hover, a:focus {
+	color: black;
+	text-decoration: none;
 }
 
 hr {
