@@ -245,3 +245,27 @@ hr {
 .mail {
 	font-size: 20px;
 }
+#massege {
+	background: #ebebeb;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: right;
+}
+
+#massege h4 {
+	font-size: 35px;
+}
+#massege p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#massege a{
+text-decoration:none;
+font-size: 20px;
+color: #555;
+}
+
+#massege a:hover, a:focus {
+	color: black;
+	text-decoration: none;
+}
