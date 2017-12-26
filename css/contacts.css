@@ -69,6 +69,7 @@ hr {
 	padding-bottom: 15px;
 }
 
+
 .navbar-inverse {
 	background: #2d2d2d;
 	border-color: #2d2d2d;
@@ -94,6 +95,7 @@ hr {
 	padding-top: 2px;
 	padding-bottom: 2px
 }
+
 
 #headerwrap {
 	background: url(../photo/main_photo.jpg); no-repeat center top;
@@ -143,10 +145,6 @@ hr {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
-}
-
-#dg h4 {
-	font-size: 40px;
 }
 
 #dg p {
@@ -206,14 +204,12 @@ hr {
 }
 
 #lg h4 {
-	font-size: 45px;
+	font-size: 35px;
 }
-
-#lg img {
-	width: 180px;
-	height: 180px;
+#lg p{
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
-
 #r {
 	background: #ff7878;
 	padding-top: 70px;
