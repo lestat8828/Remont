@@ -9,7 +9,7 @@ $phone = '';
 $name = '';
 $message = '';
 
-$to = 'lestat88@ukr.net';
+$to = 'kyivrepair@gmail.com';
 $redirectUrl = 'https://lestat8828.github.io/Remont/sendmail.html';
 
 if (isset($_POST['email'])) {
