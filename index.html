@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.min.css">
 </head>
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top">
@@ -96,19 +97,19 @@
       <div class="row centered">
         <h4>Последние работы</h4>
         <br>
-        <div class="col-lg-4">
+        <div class="col-lg-4 wow fadeInLeft data-wow-duration="0.5s" data-wow-delay="0.5s">
           <div class="tilt">
             <p>Коттедж г.Вышгород (Дидовица)</p>
-            <a href="#"><img src="photo/Didovica.jpg" alt="Коттедж г.Вышгород(Дидовица)"></a>
+            <a href="gallery.html#didovica"><img src="photo/Didovica.jpg" alt="Коттедж г.Вышгород(Дидовица)"></a>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 wow zoomIn data-wow-duration="0.5s" data-wow-delay="0.5s">
           <div class="tilt">
             <p>Квартира ул.Героев Сталинграда</p>
-            <a href="#"><img src="photo/Stalingrada.jpg" alt="Квартира ул.Героев Сталинграда"></a>
+            <a href="gallery.html"><img src="photo/Stalingrada.jpg" alt="Квартира ул.Героев Сталинграда"></a>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 wow fadeInRight data-wow-duration="0.5s" data-wow-delay="0.5s">
           <div class="tilt">
             <p>Коттедж г.Киев (Пуща-водица)</p>
             <a href="#"><img src="photo/Puscha.jpg" alt="Коттедж г.Киев (Пуща-водица)"></a>
@@ -135,22 +136,22 @@
     <div class="container">
       <div class="row centered">
         <h4>Партнеры</h4>
-        <div class="col-lg-2">
+        <div class="col-lg-2 wow zoomIn">
           <img src="photo/buildtruck.gif" alt="логотип Buildtruck">
         </div>
-        <div class="col-lg-2 ">
+        <div class="col-lg-2 wow zoomIn">
           <img src="photo/logo-drevolux.gif" alt="логотип Древолюкс">
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 wow zoomIn">
           <img src="photo/kan.gif" alt="логотип kan-therm">
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 wow zoomIn">
           <img class="rehau" src="photo/Rehau.gif" alt="логотип rehau">
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 wow zoomIn">
           <img src="photo/teplodar.gif" alt="логотип Теплодар">
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 wow zoomIn">
           <img src="photo/rems.gif" alt="логотип Rems">
         </div>
       </div>
@@ -175,7 +176,10 @@
       </div>
     </div>
   </div>
-
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
