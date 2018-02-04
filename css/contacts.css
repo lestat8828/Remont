@@ -323,6 +323,24 @@ color: #555;
 	margin-left: 60px;
 	font-size: 19px;
 }
+@media screen and (max-width: 1200px) {
+    .rabotu {
+	list-style-type: none;
+	padding-left: 60px;
+	text-align: center;
+	font-size: 19px;}
+	.rabotu2 {
+	list-style-type: none;
+	margin-left: 60px;
+	text-align: center;
+	font-size: 19px;}
+	.w ul {
+	margin: 0px;
+	padding: 0px;
+	}
+	.form-horizontal {
+	max-width: 100%;}
+}
 .w ul {
 	margin-bottom: 20px;
 }
