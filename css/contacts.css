@@ -145,7 +145,7 @@ hr {
 	font-size: 30px;
 }
 .w li {
-	margin-right: 30px;
+	margin-right: 50px;
 }
 
 #dg {
@@ -164,21 +164,6 @@ hr {
 	font-size: 35px;
 }
 
-.tilt { 
-	-webkit-transition: all 0.5s ease;
-	   -moz-transition: all 0.5s ease;
-	     -o-transition: all 0.5s ease;
-	    -ms-transition: all 0.5s ease;
-	        transition: all 0.5s ease;
-}
-
-.tilt:hover {
-	-webkit-transform: rotate(-10deg);
-	   -moz-transform: rotate(-10deg);
-	     -o-transform: rotate(-10deg);
-		-ms-transform: rotate(-10deg);
-			transform: rotate(-10deg);
-}
 .tilt img {
 	width: 100%;
 	height: 100%;
@@ -338,6 +323,7 @@ color: #555;
 	margin: 0px;
 	padding: 0px;
 	}
+	.w li {margin-right: 0px;}
 	.form-horizontal {
 	max-width: 100%;}
 }
