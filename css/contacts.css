@@ -147,6 +147,29 @@ hr {
 .w li {
 	margin-right: 50px;
 }
+.w ul {
+	margin-bottom: 20px;
+}
+.wn {
+	padding-top: 35px;
+}
+.wn a {
+	color: #555;
+	text-decoration: none;
+	outline: 0;
+}
+.wn h4 {
+	font-size: 25px;
+}
+.wn i {
+	font-size: 30px;
+}
+.wn li {
+	margin-right: 50px;
+}
+.wn ul {
+	margin-bottom: 20px;
+}
 
 #dg {
 	background: #ebebeb;
@@ -323,12 +346,14 @@ color: #555;
 	margin: 0px;
 	padding: 0px;
 	}
-	.w li {margin-right: 0px;}
+	.wn ul {
+	margin: 0px;
+	padding: 0px;
+	}
+	.w li {
+	margin-right: 0px;}
 	.form-horizontal {
 	max-width: 100%;}
-}
-.w ul {
-	margin-bottom: 20px;
 }
 .row {
 	margin-right: auto;
