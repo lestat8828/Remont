@@ -26,7 +26,6 @@ p{
 
 .centered {
 	text-align: center;
-	max-width: 1632px;
 }
 
 .Home {
@@ -326,4 +325,11 @@ color: #555;
 }
 .w ul {
 	margin-bottom: 20px;
+}
+.row {
+	margin-right: auto;
+	margin-left: auto;
+}
+.golos {
+	padding-top: 105px;
 }
