@@ -104,6 +104,9 @@ pre a:hover, a:focus {
 .wn {
 	padding-top: 35px;
 }
+.wn h1 {
+	font-size: 30px;
+}
 .wn a {
 	color: #555;
 	text-decoration: none;
@@ -135,7 +138,7 @@ pre a:hover, a:focus {
 	margin-bottom: 20px;
 }
 #con h1 {
-	font-size: 35px;
+	font-size: 30px;
 }
 
 .tilt img {
@@ -173,6 +176,9 @@ pre a:hover, a:focus {
 .wc h2 {
 	font-size: 19px;
 }
+.wc h1 {
+	font-size: 30px;
+}
 #lg {
 	background: #ebebeb;
 	padding-top: 70px;
@@ -180,7 +186,7 @@ pre a:hover, a:focus {
 	text-align: center;
 }
 #lg h2 {
-	font-size: 35px;
+	font-size: 30px;
 	padding-bottom: 15px;
 }
 #lg p{
@@ -223,12 +229,12 @@ pre a:hover, a:focus {
 
 #r h4 {
 	color: white;
-	font-size: 35px;
+	font-size: 28px;
 }
 
 #r p {
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 #f {
