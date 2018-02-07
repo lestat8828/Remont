@@ -73,7 +73,7 @@ pre a:hover, a:focus {
 	color: #999;
 	font-weight: bolder;
 	font-size: 22px;
-	padding-top: 0px;
+	padding-top: 1px;
 }
 
 .navbar-inverse .fa-phone {
