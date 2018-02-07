@@ -54,23 +54,25 @@ pre a:hover, a:focus {
 	padding-bottom: 15px;
 }
 
-
 .navbar-inverse {
 	background: #2d2d2d;
-	border-color: #2d2d2d
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #2d2d2d;
+	border-style: none;
+	box-shadow: none;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
 	background-color: #ff7878;
 }
-.navbar-header a pre {
-	margin-top: 10px;
-}
+
 
 .navbar-inverse .navbar-brand {
 	color: #999;
 	font-weight: bolder;
 	font-size: 22px;
+	padding-top: 0px;
 }
 
 .navbar-inverse .fa-phone {
