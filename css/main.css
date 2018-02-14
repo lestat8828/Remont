@@ -15,7 +15,7 @@ h1, h2, h3, h4 ,h5 {
 }
 
 p{
-	line-height: 28px;
+	
 	margin-bottom: 25px;
 }
 
@@ -80,8 +80,9 @@ pre a:hover, a:focus {
 	color: black;
 	font-weight: bolder;
 	font-size: 15px;
-	padding-top: 2px;
-	padding-bottom: 2px
+	padding-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 7px;
 }
 
 #headerwrap {
@@ -91,7 +92,7 @@ pre a:hover, a:focus {
 	background-position: center center;
 	min-height: 550px;
 	width: 100%;
-
+	margin-top: -5px;
 	background-size: 100%;
 
 	background-size: cover;
@@ -101,15 +102,16 @@ pre a:hover, a:focus {
 	margin-top: 100px;
 	color: white;
 	font-size: 4vw;
-	font-weight: 300;
+	font-weight: 600;
 	letter-spacing: 3px;
 }
 
 #headerwrap h2 {
 	color: white; 
 	font-size: 2vw;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
+	font-weight: 400;
 }
 
 .w {
@@ -123,6 +125,11 @@ pre a:hover, a:focus {
 }
 .w li {
 	margin-right: 30px;
+	list-style-type: none;
+}
+.w ul {
+	border-top: 2px solid #999;
+	padding-top: 20px;
 }
 
 #dg {
@@ -145,11 +152,7 @@ pre a:hover, a:focus {
 	height: 100%;
 	box-shadow: 0 0 5px 2px rgba(0,0,100,0.5);
 }
-@media screen and (max-width: 1200px) {
-    .tilt img {
-	width: 65%;
-	box-shadow: 0 0 5px 2px rgba(0,0,100,0.5);}
-}
+
 
 .tilt p {
 	font-size: 20px;
@@ -191,8 +194,8 @@ pre a:hover, a:focus {
 }
 #r {
 	background: #ff7878;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #r h4 {
@@ -207,7 +210,7 @@ pre a:hover, a:focus {
 
 #f {
 	background: #2d2d2d;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
@@ -230,4 +233,69 @@ pre a:hover, a:focus {
 }
 .pad {
 	padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .tilt img {
+	box-shadow: 0 0 5px 2px rgba(0,0,100,0.5);}
+	.w ul {
+	margin: 0px;
+	padding: 0px;
+	}
+	.w li {
+	margin-right: 0px;
+	list-style-type:none;
+	}
+	.w ul {
+		margin-bottom: 0px;
+		padding-top: 20px;
+	}
+	#lg {
+	background: #ebebeb;
+	padding-top: 0px;
+	padding-bottom: 15px;}
+
+	#lg h2 {
+		font-size: 30px;
+		padding-bottom: 0px;
+	}
+	#lg p{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	#proekt {
+		visibility: hidden;
+	}
+	#proekt .row {
+		height: 0px;
+	}
+	#proekt {
+		background-color: #ebebeb;
+	}
+	.pad {
+		padding-left: 0px;
+	}
+	.wb {
+	padding-top: 0px;
+}
+		 
+}
+@media screen and (max-width: 768px) {
+    
+	.pad {
+		padding-left: 15px;
+		padding-top: 20px;
+		border-top: 2px solid #999;
+	}
+	.w ul {
+	border-top:none;
+	}
+		 
+}	
+@media screen and (max-width: 414px) {
+	.centered {
+		text-align: left;
+	}
+	
+
 }
