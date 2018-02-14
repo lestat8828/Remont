@@ -231,7 +231,7 @@ pre a:hover, a:focus {
 }
 .head_pad {min-height: 170px;}
 .centered {
-		text-align: left;
+		text-align: left;}
 
 @media screen and (max-width: 1200px) {
     .tilt img {
