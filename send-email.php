@@ -10,7 +10,6 @@ $name = '';
 $message = '';
 
 $to = 'kyivrepair@gmail.com';
-$redirectUrl = 'https://lestat8828.github.io/Remont/sendmail.html';
 
 if (isset($_POST['email'])) {
 	$email = $_POST['email'];
@@ -32,17 +31,13 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 $body = "
-<html>
-	<head></head>
-	<body>
-		<p>Имя: ${name}</p>
-		<p>Тел: ${phone}</p>
-		<p>Email: ${email}</p>
-		<p>Сообщение: ${message}</p>
-	</body>
-</html>
+		Имя: ${name}
+		Тел: ${phone}
+		Email: ${email}
+		Сообщение: ${message}
 ";
 
 mail($to, 'РЕМОНТ ' . date('Y-m-d H:m'), $body);
 
-header("Location: ${$redirectUrl}");
+header("Location: http://kyivrepair.pro/sendmail.html", true, 301);
+exit();
